@@ -1,0 +1,33 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+		Web Developer / Designer : Nico Sevilla
+		Site: http://nicosevilla.co.cc
+		Twitter: @ncsevilla_tw
+		Location: Lucena City, Philippines
+
+/* THANKS */
+		http://html5boilerplate.com
+		http://960.gs
+		http://www.w3schools.com
+		http://www.google.com
+		http://www.rgbtohex.net
+		http://humanstxt.org
+		http://necolas.github.com/normalize.css
+		http://procssor.com
+		http://www.impallari.com
+		https://github.com
+		simurai.com
+		http://iconsweets.com
+		http://www.iconsweets2.com
+		http://www.pvmgarage.com
+		http://creativecommons.org
+
+/* SITE */
+		Language:English 
+		Standards: HTML5, CSS3
+		Components: Modernizr, jQuery
+		IDE: Dreamweaver, Notepad++, Photoshop
+		Last update: 2011/11/10
+		
