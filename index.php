@@ -52,8 +52,12 @@
                         <div class="rectangle"></div>
                         <div class="triangle-l"></div>
 						<div class="triangle-r"></div>
-              			<p>This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p 
-               		 ></div> <!-- end .grid_24 -->
+              			<p class="twitter">This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p>
+                        <div><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>                      
+                        </div>
+                        
+                        
+               		</div> <!-- end .grid_24 -->
            	    </div> <!-- end #wrapper -->         
        		</div> <!-- end .container_24 -->
         </div> <!-- end #content --> 
@@ -98,6 +102,11 @@
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
+  
+  
+  <!-- Twitter Widgets -->
+  <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   
 
 </body>

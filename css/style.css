@@ -45,12 +45,12 @@ body, button, input, select, textarea { font-family: 'Quattrocento Sans', sans-s
    Links
    ========================================================================== */
 
-a { color: #00e; }
+a { color: #999; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
-/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+/* Improve readability when focused and hovered in all browsers */
 a:hover, a:active { outline: 0; }
 
 
@@ -216,7 +216,7 @@ p, li, td { font: normal 16px/1.5 'Quattrocento Sans',"Lucida Grande", "Lucida S
 #nav { background: #191919; width: 100%; height: 60px; position: fixed; z-index: 99; }
 #text { font: 2em 'Lobster', cursive; }
 /* Contents */
-#wrapper { background: #fff; height: 900px; margin-top: 60px;  }
+#wrapper { background: #fff; height: 1000px; margin-top: 60px;  }
 #footer { background: transparent; height: 60px; margin-top: 10px; }
 #footer-text { font: normal 6px/1.5; color: #999; }
 .shadow { -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.35); -moz-box-shadow: 0 1px 3px rgba(0,0,0,.35); box-shadow: 0 1px 3px rgba(0,0,0,.35); }
