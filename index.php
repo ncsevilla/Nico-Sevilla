@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Nico Sevilla &mdash; Web Developer</title>
+  <title>Nico Sevilla's Online Portfolio - Web Developer | Web UI (User Interface) Designer &amp; PHP Developer | Musician </title>
   <meta name="description" content="The personal website of Nico Sevilla. A website developer located in Lucena City, Philippines.">
   <meta name="author" content="Nico Sevilla">
   <meta http-equiv="imagetoolbar" content="false" />
@@ -36,7 +36,7 @@
   <div id="container" >
     <div id="main" role="main">
   
-    	<div id="nav" class="shadow-2">  
+    	<div id="nav" class="shadow-2 nav-theme">  
         	<div class="container_24">
             	<div class="grid_24">               
                 	<p id="text">Nico Sevilla</p>                                            
@@ -51,12 +51,11 @@
               			<div class="nico">Nico Sevilla</div>
                         <div class="rectangle"></div>
                         <div class="triangle-l"></div>
-						<div class="triangle-r"></div>
-              			<p class="twitter">This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p>
-                        <div><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>                      
-                        </div>
-                        
-                        
+						<div class="triangle-r"></div>             			
+                        <div class="content-boxes"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>
+                        </div> <!-- end .content-boxes-->
+  						<div class="content-boxes"></div>
+                        <p>This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p>                                             
                		</div> <!-- end .grid_24 -->
            	    </div> <!-- end #wrapper -->         
        		</div> <!-- end .container_24 -->
