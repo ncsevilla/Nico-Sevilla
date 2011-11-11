@@ -36,7 +36,7 @@
   <div id="container" >
     <div id="main" role="main">
   
-    	<div id="nav" class="shadow-2 nav-theme">  
+    	<div id="nav" class="shadow-2 nav-theme-3">  
         	<div class="container_24">
             	<div class="grid_24">               
                 	<p id="text">Nico Sevilla</p>                                            
