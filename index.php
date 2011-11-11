@@ -106,7 +106,6 @@
   
   <!-- Twitter Widgets -->
   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
-  <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   
 
 </body>
