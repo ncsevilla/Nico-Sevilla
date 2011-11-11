@@ -53,7 +53,7 @@
                         <div class="triangle-l"></div>
 						<div class="triangle-r"></div>
               			<p>This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p 
-               		 </div> <!-- end .grid_24 -->
+               		 ></div> <!-- end .grid_24 -->
            	    </div> <!-- end #wrapper -->         
        		</div> <!-- end .container_24 -->
         </div> <!-- end #content --> 
