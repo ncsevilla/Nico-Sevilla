@@ -216,7 +216,7 @@ p, li, td { font: normal 16px/1.5 'Quattrocento Sans',"Lucida Grande", "Lucida S
 #nav { background: #191919; width: 100%; height: 60px; position: fixed; z-index: 99; }
 #text { font: 2em 'Lobster', cursive; }
 /* Contents */
-#wrapper { background: #fff; height: 1000px; margin-top: 60px;  }
+#wrapper { background: transparent; height: 1000px; margin-top: 60px; }
 #footer { background: transparent; height: 60px; margin-top: 10px; }
 #footer-text { font: normal 6px/1.5; color: #999; }
 .shadow { -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.35); -moz-box-shadow: 0 1px 3px rgba(0,0,0,.35); box-shadow: 0 1px 3px rgba(0,0,0,.35); }
@@ -230,6 +230,7 @@ p, li, td { font: normal 16px/1.5 'Quattrocento Sans',"Lucida Grande", "Lucida S
 .rectangle { background: #12a6db; height: 50px; width: 990px; position: relative; left:-20px; float: left; -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55); -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55); -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55); z-index: 98; }
 .triangle-l { border-color: transparent #0174a7 transparent transparent; border-style:solid; border-width:15px; height:0px; width:0px; position: relative; left: -35px; top: 35px; z-index: -1; }
 .triangle-r { border-color: transparent transparent transparent #0174a7; border-style:solid; border-width:15px; height:0px; width:0px; position: relative; left: 955px; top: 5px; z-index: -1; }
+.transparency box { background: background: rgba(0, 0, 0, .05); }
 
 
 
