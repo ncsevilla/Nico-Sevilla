@@ -1,3 +1,3 @@
 <?php 
-echo '<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">&copy; ' .date("Y"). '</span><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"> Designed by Nico Sevilla </span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/ph/">Creative Commons Attribution-ShareAlike 3.0 Philippines License</a>.';
+echo '<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">&copy; ' .date("Y"). '</span><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"> Designed by Nico Sevilla from inspirations across the web. <br/> </span> Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/ph/">Creative Commons Attribution-ShareAlike 3.0 Philippines License</a>.';
 ?>

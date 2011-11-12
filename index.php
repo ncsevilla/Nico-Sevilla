@@ -35,27 +35,43 @@
 
   <div id="container" >
     <div id="main" role="main">
-  
+<!---  DISABLE OLD NAV for my scrollbar
     	<div id="nav" class="shadow-2 nav-theme-3">  
         	<div class="container_24">
             	<div class="grid_24">               
-                	<p id="text">Nico Sevilla</p>                                            
-                </div> <!-- end .grid_24 -->
-            </div> <!-- end .container_24 --> 
-        </div> <!-- end #nav--> 
-    
+                	<div id="nav-text-logo">Nico Sevilla</div>                                            
+                </div> <!-- end .grid_24 --
+            </div> <!-- end .container_24 --
+        </div> <!-- end #nav--
+--->    
     	<div id="content"> 
 			<div class="container_24">
         		<div id="wrapper" class="shadow radius-bl radius-br" >
  					<div class="grid_24">
-              			<div class="nico">Nico Sevilla</div>
-                        <div class="rectangle"></div>
+                    
+                    
+              			<div class="main-text-logo inset">Nico Sevilla</div>
+                        
+                        
+                        <div class="rectangle"><span class="notes">This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</span></div>
                         <div class="triangle-l"></div>
-						<div class="triangle-r"></div>             			
-                        <div class="content-boxes"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>
-                        </div> <!-- end .content-boxes-->
-  						<div class="content-boxes"></div>
-                        <p>This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</p>                                             
+						<div class="triangle-r"></div>
+                        
+                        
+                        <div class="content-box-1">
+                        	<div>
+                            	<h2 class="about">&nbsp;</h2>
+                                <p></p>
+                            </div>    
+                        </div> <!-- end .content-box-1-->
+                        
+                        <br/> 
+                                   
+                                               			
+                        <div class="twitter-widgets"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>
+                        </div> <!-- end .content-box-2-->        
+                        
+                                                                                   
                		</div> <!-- end .grid_24 -->
            	    </div> <!-- end #wrapper -->         
        		</div> <!-- end .container_24 -->
@@ -64,7 +80,7 @@
        <div id="footer">  
         	<div class="container_24">
             	<div class="grid_24">
-                	<span id="footer-text"><?php require_once('php/scripts/copyrights.php'); ?></span>  
+                	<div id="footer-text"><?php require_once('php/scripts/copyrights.php'); ?></div>  
                 </div> <!-- end .grid_24 -->
             </div> <!-- end .container_24 --> 
         </div> <!-- end #footer -->        
