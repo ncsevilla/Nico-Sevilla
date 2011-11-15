@@ -22,6 +22,7 @@
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" type="text/css" media="all" href="css/style.css?v=2" />
   <link rel="stylesheet" type="text/css" media="all" href="css/960_24_col.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/custom-theme/jquery-ui-1.8.16.custom.css"  />	
   <link rel='stylesheet' type='text/css' media="all" href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento&v2' />
   <link rel='stylesheet' type='text/css' media="all" href='http://fonts.googleapis.com/css?family=Lobster' />
   <!-- end CSS-->
@@ -30,61 +31,56 @@
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
-
 <body id="page_effect" style="display:none;">
-
   <div id="container" >
-    <div id="main" role="main">
-<!---  DISABLE OLD NAV for my scrollbar
-    	<div id="nav" class="shadow-2 nav-theme-3">  
-        	<div class="container_24">
-            	<div class="grid_24">               
-                	<div id="nav-text-logo">Nico Sevilla</div>                                            
-                </div> <!-- end .grid_24 --
-            </div> <!-- end .container_24 --
-        </div> <!-- end #nav--
---->    
-    	<div id="content"> 
-			<div class="container_24">
+    <div id="main" role="main"> 
+           <div id="">  
+                <div class="container_24">
+                    <div class="container_24">       	
+                                <div class="top">
+                                </div>         
+                    </div> <!-- end .grid_24 -->
+                </div> <!-- end .container_24 --> 
+            </div> <!-- end #footer -->    
+			<div class="container_24">        	         
         		<div id="wrapper" class="shadow radius-bl radius-br" >
- 					<div class="grid_24">
-                    
-                    
+ 					<div class="grid_24">                                       
               			<div class="main-text-logo inset">Nico Sevilla</div>
-                        
-                        
-                        <div class="rectangle"><span class="notes">This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!</span></div>
+                        <div class="rectangle">
+                        <span class="twitter-widgets">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/>
+                        <a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button" data-link-color="FFFFFF">Follow @twitter</a>	
+                        </span>
+                        </div>  				
                         <div class="triangle-l"></div>
-						<div class="triangle-r"></div>
-                        
-                        
-                        <div class="content-box-1">
-                        	<div>
-                            	<h2 class="about">&nbsp;</h2>
-                                <p></p>
-                            </div>    
-                        </div> <!-- end .content-box-1-->
-                        
-                        <br/> 
-                                   
-                                               			
-                        <div class="twitter-widgets"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http:\\nicosevilla.co.cc" data-text="Visit this website! nicosevilla.co.cc" data-count="horizontal" data-via="ncsevilla_tw">Tweet</a><br/><a href="https://twitter.com/ncsevilla_tw" class="twitter-follow-button">Follow @twitter</a>
-                        </div> <!-- end .content-box-2-->        
-                        
-                                                                                   
+						<div class="triangle-r"></div>     
+                        <div class="content-box-1">  
+                            <div class="ui-widget">
+                            <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+                                <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+                                <strong>Hello!</strong> This new website is currently under development. You can contact me at my email ncsevilla@hotmail.com. Thank You!
+                                </p>
+                            </div>
+                       	    </div>
+						</div>                  
+                        </div> <!-- end .content-box-1-->                                                                             
                		</div> <!-- end .grid_24 -->
            	    </div> <!-- end #wrapper -->         
        		</div> <!-- end .container_24 -->
-        </div> <!-- end #content --> 
 
-       <div id="footer">  
-        	<div class="container_24">
-            	<div class="grid_24">
-                	<div id="footer-text"><?php require_once('php/scripts/copyrights.php'); ?></div>  
-                </div> <!-- end .grid_24 -->
-            </div> <!-- end .container_24 --> 
-        </div> <!-- end #footer -->        
-        
+           <div id="footer">  
+                <div class="container_24">
+                    <div class="grid_24">
+                        <div id="footer">
+                        	<span class="html5-logo"><a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png" width="357" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage" title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage">
+</a></span>
+                            <span class="footer-text"><?php require_once('php/scripts/copyrights.php'); ?></span>		
+                        </div>  
+                    </div> <!-- end .grid_24 -->
+                </div> <!-- end .container_24 --> 
+            </div> <!-- end #footer -->        
+            
     </div> <!--! end of #main -->
   </div> <!--! end of #container -->
 
@@ -121,6 +117,10 @@
   
   <!-- Twitter Widgets -->
   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+  
+  <!-- My Custom JQuery Theme UI -->
+  <script src="js/mylibs/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+
   
 
 </body>
